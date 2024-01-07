@@ -242,3 +242,61 @@ hr{
     flex-basis: 50%;
         
 }
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #header {
+        height: 50vh;
+    }
+
+    #sidenav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+
+    #menuBtn {
+        right: 10px;
+        top: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #header {
+        height: 50vh;
+    }
+
+    #sidenav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px;
+    }
+
+    #menuBtn {
+        right: 10px;
+        top: 10px;
+    }
+}
